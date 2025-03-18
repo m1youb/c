@@ -1,9 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-    printf("Enter a float number: \n");
-    float i;
-    scanf("%f", &i);
-    printf("The float number is: %f\n", i);
+    int x = 8;
+    printf("%.3d \n", x);
     return 0;
 }
